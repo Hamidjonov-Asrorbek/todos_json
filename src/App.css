@@ -1,0 +1,155 @@
+* {
+  user-select: none;
+}
+
+body{
+  background-color: #020024;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding-inline: 50px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+}
+
+.list-group-item:hover {
+  background-color: #cccccc80;
+}
+
+img {
+  cursor: pointer;
+  /* transition: all 0.5s; */
+}
+
+h1{
+  margin-top: 20px;
+}
+
+.pages_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+a{
+  color: inherit;
+}
+
+.page_title{
+  cursor: pointer;
+  color: #e89b30;
+  font-size: 42px;
+  transition: color 0.4s linear;
+}
+.page_title a.active{
+  color: #03df2f;
+  background-color: rgb(16, 30, 155);
+  padding: 4px 8px;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+}
+.page_title:hover{
+  color: #ccccb5;
+}
+.list-group{
+  margin-bottom: 50px;
+}
+
+.todos_li{
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding-left: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  /* padding: 15px 10px; */
+}
+p{
+  margin: 0;
+}
+.posts_tit{
+  display: flex;
+  gap: 10px;
+  /* text-align: center; */
+}
+
+.posts_li{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.photos_li{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.users_li{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.user-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photos_container {
+  width: 100%;
+  max-width: 600px;
+  padding-inline: 50px;
+}
+
+.loader{
+  display: flex;
+  margin-inline: auto;
+}
+.error{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 100px;
+}
+.hidden {
+  display: none;
+}
+  
+.disabled{
+  opacity: 0.9;
+}
